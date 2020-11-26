@@ -37,8 +37,8 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-left: 15px;
 }
 
 .smalltext {
@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color:black;
     overflow: hidden;
 }
 
@@ -77,11 +77,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color:red;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: greenyellow;
 }
 
 #eerste {
@@ -97,6 +97,12 @@ nav li a.active {
 }
 #vierde {
     background-color:darkblue
+}
+p {
+    color:skyblue;
+}
+#trainer {
+    float:left;
 }
 
 
