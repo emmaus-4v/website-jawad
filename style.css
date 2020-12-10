@@ -41,6 +41,11 @@ img.zweefLinks {
     margin-left: 15px;
     width: 300px;
 }
+img.titel {
+    float:left;
+    margin-right: 15px;
+    width:300px;
+}
 
 .smalltext {
     font-size: 0.7em;
@@ -84,7 +89,7 @@ nav li a:hover {
 nav li a.active {
     background-color: greenyellow;
 }
-
+/* pagina's 1t/m4 */
 #eerste {
     background-color:darkblue
     
@@ -98,6 +103,9 @@ nav li a.active {
 #vierde {
     background-color:darkblue
 }
+
+
+
 p {
     color:skyblue;
 }
