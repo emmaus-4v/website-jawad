@@ -113,7 +113,11 @@ p {
     float:left;
 }
 li {
-    color:skyblue:
+    color:skyblue;
+}
+a {
+    color:black;
+    
 }
 
 
