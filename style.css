@@ -53,7 +53,7 @@ img.titel {
 
 a {
     color: skyblue;
-    text-decoration: none;
+    text-decoration: wavy;
 }
 
 a:hover {
@@ -116,11 +116,39 @@ li {
     color:skyblue;
 }
 a {
-    color:black;
+    color:skyblue;
     
+}
+@keyframes slide{
+    0%{
+       left: -200px;
+    }
+    100% {
+       left:0px;
+    }
 }
 
 
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+h1 {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
+img {
+    animation-duration: 2s;
+    animation-name: slide;
+    position: relative;
+}
 
 
 
