@@ -149,6 +149,9 @@ img {
     animation-name: slide;
     position: relative;
 }
+a {
+    font-family: cursive;
+}
 
 
 
