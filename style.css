@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: darkblue;  
     
-    color: #303030;
+    color: skyblue;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -40,6 +40,7 @@ img.zweefLinks {
     float: right;
     margin-left: 15px;
     width: 300px;
+   
 }
 img.titel {
     float:left;
@@ -92,8 +93,7 @@ nav li a.active {
 /* pagina's 1t/m4 */
 #eerste {
     background-color:darkblue
-    
-}
+    }
 #tweede {
     background-color: darkblue
 }
